@@ -1,4 +1,0 @@
-package PayMetrics;
-
-public class Empresa {
-}
