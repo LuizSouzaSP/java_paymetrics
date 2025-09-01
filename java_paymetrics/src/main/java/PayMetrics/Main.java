@@ -1,4 +1,4 @@
 package PayMetrics;
 
-public class Empresa {
+public class Main {
 }
