@@ -53,10 +53,23 @@ public class Dados{
                 if(pacotesRecebidos[i] >= 90){
                     System.out.println("CRÍTICO! a latência da rede esta em um estado crítico!");
                 }
-                if(pacotesRecebidos[i] >= 70 && pacotesRecebidos[i] < 90){
+                else if(pacotesRecebidos[i] >= 70 && pacotesRecebidos[i] < 90){
                     System.out.println("ALERTA! a letência da rede está muito alta!");
                 }
-                if(pacotesRecebidos[i] >= 50 && pacotesRecebidos[i] < 70){
+                else if(pacotesRecebidos[i] >= 50 && pacotesRecebidos[i] < 70){
+                    System.out.println("Cuidado! a latência da rede esta em um nível alto");
+                }
+            }
+        }
+        public void alertaPacotesEnviados(){
+            for(int i = 0; i < pacotesEnviados.length; i ++){
+                if(pacotesEnviados[i] >= 90){
+                    System.out.println("CRÍTICO! a latência da rede esta em um estado crítico!");
+                }
+                else if(pacotesEnviados[i] >= 70 && pacotesEnviados[i] < 90){
+                    System.out.println("ALERTA! a letência da rede está muito alta!");
+                }
+                else if(pacotesEnviados[i] >= 50 && pacotesEnviados[i] < 70){
                     System.out.println("Cuidado! a latência da rede esta em um nível alto");
                 }
             }

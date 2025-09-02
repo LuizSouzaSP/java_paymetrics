@@ -13,6 +13,7 @@ public class Main {
         empresa1.alertaRam();
         empresa1.discoAlerta();
         empresa1.alertaPacotesRecebidos();
+        empresa1.alertaPacotesEnviados();
     }
 
 
